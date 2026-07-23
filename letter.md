@@ -40,28 +40,32 @@ Signatures
 Data were collected using a survey sent to users of Octopus, Ultra and Artemis on 17 July 2026. The survey closed on 21 July 2026 and received 56 responses.
 UKRI delivery plan priority areas	Number of aligned LSF projects
 
-Discovery and Curiosity Driven Research	49
-Life Sciences	29
-Clean Growth and Energy	24
-Engineering Biology	14
-Quantum Technologies	10
-Artificial Intelligence	5
+| UKRI delivery plan priority areas | Number of aligned LSF projects |
+|---|---:|
+| Discovery and Curiosity Driven Research | **49** |
+| Life Sciences | **29** |
+| Clean Growth and Energy | **24** |
+| Engineering Biology | **14** |
+| Quantum Technologies | **10** |
+| Artificial Intelligence | **5** |
 
-Funder	Number of LSF projects	Follow-on funding enabled by LSF research# / £M
-EPSRC	28	28.4
-BBSRC	11	6.6
-STFC	11	0.8
-NERC	1	none declared
-MRC	3	none declared
-Unspecified UKRI funder	-	5.0
-ERC and other European funders	9	18.6
-Cancer Research UK	3	0.5
-The Leverhulme Trust	8	1.6
-The Royal Society	6	0.5
-Wellcome Trust	2	none declared
-Industry	7	0.8
-Other (including international)	10	
-# Not all survey respondents provided numerical values for follow-on funding.
+| Funder | Number of LSF projects | Follow-on funding enabled by LSF research<sup>#</sup> / £M |
+|---|---:|---:|
+| EPSRC | **28** | **28.4** |
+| BBSRC | **11** | **6.6** |
+| STFC | **11** | **0.8** |
+| NERC | **1** | none declared |
+| MRC | **3** | none declared |
+| Unspecified UKRI funder | **–** | **5.0** |
+| ERC and other European funders | **9** | **18.6** |
+| Cancer Research UK | **3** | **0.5** |
+| The Leverhulme Trust | **8** | **1.6** |
+| The Royal Society | **6** | **0.5** |
+| Wellcome Trust | **2** | none declared |
+| Industry | **7** | **0.8** |
+| Other (including international) | **10** |  |
+
+<sup>#</sup>Not all survey respondents provided numerical values for follow-on funding.
 
 
 ---
