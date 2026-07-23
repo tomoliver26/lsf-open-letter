@@ -1,15 +1,15 @@
----
-layout: page
-title: Open Letter
-permalink: /letter/
----
-
 # An open letter in support of the Lasers for Science Facility
 
 Dear [recipient],
 
 Your letter goes here.
 
-## Signatories
+Yours sincerely,
 
-[View the signatories](/signatories/)
+[Names of the letter organisers]
+
+---
+
+[**Sign the letter**](https://forms.cloud.microsoft/e/0HDcBx9Bz4)
+
+[**View the signatories**](./signatories.html)
