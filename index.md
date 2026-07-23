@@ -1,13 +1,18 @@
-# Support the Lasers for Science Facility
+---
+layout: splash
+title: "Support the Lasers for Science Facility"
+excerpt: "Protecting world-leading infrastructure for UK and international science."
+header:
+  overlay_color: "#17365d"
+  actions:
+    - label: "Read the open letter"
+      url: "/lsf-open-letter/letter/"
+    - label: "Add your signature"
+      url: "https://forms.cloud.microsoft/e/0HDcBx9Bz4"
+---
 
-The Lasers for Science Facility provides world-leading facilities for UK and international researchers.
+The **Lasers for Science Facility**, incorporating Ultra, Octopus and Artemis, provides internationally leading capabilities for multidisciplinary laser science.
 
-## Open letter
+This open letter brings together researchers and facility users who wish to demonstrate the scientific importance of the LSF and support its sustainable future.
 
-[**Read the open letter**](./letter.html)
-
-## Signatures
-
-[**View the signatories**](./signatories.html)
-
-[**Sign the letter**](https://forms.cloud.microsoft/e/0HDcBx9Bz4)
+[View the signatories](/lsf-open-letter/signatories/){: .btn .btn--primary }
