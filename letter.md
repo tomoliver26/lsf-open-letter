@@ -51,6 +51,8 @@ UKRI delivery plan priority areas	Number of aligned LSF projects
 | Quantum Technologies | **10** |
 | Artificial Intelligence | **5** |
 
+<br>
+
 | Funder | Number of LSF projects | Follow-on funding enabled by LSF research<sup>#</sup> / £M |
 |---|---:|---:|
 | EPSRC | **28** | **28.4** |
