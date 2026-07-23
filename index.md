@@ -6,7 +6,7 @@ header:
   overlay_color: "#17365d"
   actions:
     - label: "Read the open letter"
-      url: "/lsf-open-letter/letter/"
+      url: "/letter/"
     - label: "Add your signature"
       url: "https://forms.cloud.microsoft/e/0HDcBx9Bz4"
 ---
@@ -15,4 +15,4 @@ The **Lasers for Science Facility**, incorporating Ultra, Octopus and Artemis, p
 
 This open letter brings together researchers and facility users who wish to demonstrate the scientific importance of the LSF and support its sustainable future.
 
-[View the signatories](/lsf-open-letter/signatories/){: .btn .btn--primary }
+[View the signatories]({{ "/signatories/" | relative_url }}){: .btn .btn--primary }
