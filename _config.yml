@@ -1,3 +1,19 @@
-theme: air
-title: LSF Open Letter
-description: A community letter supporting the Lasers for Science Facility
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+minimal_mistakes_skin: "air"
+
+title: "LSF Open Letter"
+masthead_title: "LSF Open Letter"
+description: "A community letter supporting the Lasers for Science Facility"
+
+url: "https://tomoliver26.github.io"
+baseurl: "/lsf-open-letter"
+repository: "tomoliver26/lsf-open-letter"
+
+search: false
+breadcrumbs: false
+
+atom_feed:
+  hide: true
+
+plugins:
+  - jekyll-include-cache
