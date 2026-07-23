@@ -1,15 +1,20 @@
-# An open letter in support of the Lasers for Science Facility
+---
+layout: single
+title: "Open letter"
+permalink: /letter/
+classes: wide
+---
+
+[Add your signature](https://forms.cloud.microsoft/e/0HDcBx9Bz4){: .btn .btn--primary }
 
 Dear [recipient],
 
-Your letter goes here.
+Your open letter goes here.
 
 Yours sincerely,
 
-[Names of the letter organisers]
+**The organisers of the LSF community open letter**
 
 ---
 
-[**Sign the letter**](https://forms.cloud.microsoft/e/0HDcBx9Bz4)
-
-[**View the signatories**](./signatories.html)
+[View the signatories]({{ "/signatories/" | relative_url }}){: .btn }
