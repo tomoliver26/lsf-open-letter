@@ -33,10 +33,8 @@ We firmly believe that there is a compelling case for STFC to continue its suppo
 
 Yours Sincerely
 
-Signatures
-
-Andrew Orr-Ewing FRS, Leverhulme Chair of Physical Chemistry, University of Bristol, UK
-Tom Oliver, Professor of Chemistry, University of Bristol, UK
+Andrew Orr-Ewing FRS, Leverhulme Chair of Physical Chemistry, University of Bristol, UK <br>
+Tom Oliver, Professor of Chemistry, University of Bristol, UK <br>
 
 
 **Appendix: LSF User Survey outcomes**
