@@ -7,21 +7,17 @@ classes: wide
 
 [Add your signature](https://forms.cloud.microsoft/e/0HDcBx9Bz4){: .btn .btn--primary }
 
-Professor Sir Ian Chapman Chief Executive, UKRI
-
-Professor Michele Dougherty Executive Chair, STFC
-
-Professor Charlotte Dean, Executive Chair, EPSRC
-
-Professor Anne Ferguson-Smith, Executive Chair, BBSRC
-
-Professor Louise Heathwaite, Executive Chair, NERC
-
+Professor Sir Ian Chapman Chief Executive, UKRI <br>
+Professor Michele Dougherty Executive Chair, STFC <br>
+Professor Charlotte Dean, Executive Chair, EPSRC <br>
+Professor Anne Ferguson-Smith, Executive Chair, BBSRC <br>
+Professor Louise Heathwaite, Executive Chair, NERC <br>
 Professor Patrick Chinnery, Executive Chair, MRC 
 
 As users of the Lasers for Science Facility (LSF), which is part of the Central Laser Facility (CLF), we write to express our deep concern about recent decisions made by STFC that will adversely impact world-leading research of national and international importance. This research aligns strongly with UKRI priority areas, and is currently sponsored by STFC, EPSRC, BBSRC, NERC and MRC, as well as by industrial, charitable and other non-Research Council funders.
 
-While we understand that STFC faces very difficult decisions as it seeks to make significant cost savings, the impacts of the recently announced cuts fall disproportionality on the multi-disciplinary user facilities (MDFs) and will severely compromise the world-class research these facilities enable.  The consequences for UKRI-funded research and its contributions to UK national priorities will be profoundly damaging, as highlighted in recent open letters to the Executive Chair of STFC and the Chief Executive of UKRI. These letters have attracted widespread support from a cross-disciplinary community of MDF users dismayed by the STFC’s choices.  Two of the facilities located at the STFC Rutherford Appleton Laboratory have been singled out for closure if they cannot switch to an alternative model for funding within a 2027-2028 two-stage Gateway process.  These facilities are the ISIS Muon Spectroscopy beamlines and the Lasers for Science Facility. Not only is this timescale unreasonably short for these facilities to put in place sustainable funding streams from other partners and funding agencies, but even the risk of closure threatens their ability to attract the new investment that will be needed to maintain world-leading research of strategic benefit to the UK. 
+While we understand that STFC faces very difficult decisions as it seeks to make significant cost savings, the impacts of the recently announced cuts fall disproportionality on the multi-disciplinary user facilities (MDFs) and will severely compromise the world-class research these facilities enable.  The consequences for UKRI-funded research and its contributions to UK national priorities will be profoundly damaging, as highlighted in recent open letters to the Executive Chair of STFC and the Chief Executive of UKRI. These letters have attracted widespread support from a cross-disciplinary community of MDF users dismayed by the STFC’s choices.  Two of the facilities located at the STFC Rutherford Appleton Laboratory have been singled out for closure if they cannot switch to an alternative model for funding within a 2027-2028 two-stage Gateway process.  These facilities are the ISIS Muon Spectroscopy beamlines and the Lasers for Science Facility. Not only is this timescale unreasonably short for these facilities to put in place sustainable funding streams from other partners and funding agencies, but even the risk of closure threatens their ability to attract the new investment that will be needed to maintain world-leading research of strategic benefit to the UK.
+
 The LSF is a tremendous success story for UK science, operating with a modest annual budget of only £4.2M that represents extraordinary value for money. It currently offers three world-class facilities to the user community through a free-at-the-point-of-use model.  To ensure the highest quality of research, access is prioritized by expert peer-review panels with membership drawn from leading figures in the UK and international research communities. Demand for access significantly exceeds the facility capacity. The three constituent facilities are Octopus (laser-based, super-resolution microscopy for bio-imaging); Ultra (time-resolved spectroscopy over femtosecond to millisecond timescales); and Artemis (imaging and spectroscopy with extreme ultraviolet laser light).  The ongoing £17.2M HiLUX project is implementing upgrades to Ultra and Artemis that will offer state-of-the-art new facilities that are unmatched nationally and internationally. The globally unique capabilities of HiLUX will place UK researchers at the international forefront in UKRI priority research and technology areas that include Clean Growth and Energy, Quantum Technologies, Life Sciences, Engineering Biology, Artificial Intelligence, and Discovery Science.  These opportunities will be squandered, and the HiLUX investment wasted, if the LSF is forced to close. 
 
 To highlight the damage that closure of the LSF will cause, we ask you to consider a case, based on evidence of exceptional performance, for why this vital multidisciplinary facility should continue to be supported by STFC and UKRI.  The data presented below have been collected from public-domain sources, and through our survey of the LSF user community conducted at short notice after the unexpected prioritization announcement (please see the appendix to this letter).  Further data summaries, graphical representations, and illustrative case studies are publicly available at the LSF website. 
