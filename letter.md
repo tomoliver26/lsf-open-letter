@@ -36,7 +36,7 @@ Yours Sincerely
 Andrew Orr-Ewing FRS, Leverhulme Chair of Physical Chemistry, University of Bristol, UK <br>
 Tom Oliver, Professor of Chemistry, University of Bristol, UK <br>
 
-
+<br>
 **Appendix: LSF User Survey outcomes**
 
 Data were collected using a survey sent to users of Octopus, Ultra and Artemis on 17 July 2026. The survey closed on 21 July 2026 and received 56 responses.
