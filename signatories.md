@@ -6,5 +6,6 @@ permalink: /signatories/
 
 # Signatories
 
-Jane Smith, Professor of Chemistry, University of Example  
-John Brown, Research Fellow, Example Institute  
+Andrew Orr-Ewing FRS, Leverhulme Professor of Chemistry, Universty of Bristol, UK
+Tom Oliver, Professor of Chemistry, Universty of Bristol, UK
+
