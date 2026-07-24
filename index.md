@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Support the Lasers for Science Facility"
+title: "Support the Lasers for Science Facility (LSF)"
 header:
   overlay_color: "#17365d"
 
