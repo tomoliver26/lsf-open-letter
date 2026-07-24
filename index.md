@@ -2,13 +2,7 @@
 layout: splash
 title: "Support the Lasers for Science Facility"
 excerpt: "Protecting world-leading infrastructure for UK and international science."
-header:
-  overlay_color: "#17365d"
-  actions:
-    - label: "Read the open letter"
-      url: "/letter/"
-    - label: "Add your signature"
-      url: "https://forms.cloud.microsoft/e/0HDcBx9Bz4"
+
 ---
 The UK’s Science and Technology Facilities Council (STFC) is proposing significant cuts to its expenditure on multi-disciplinary user facilities (MDFs) to cover a substantial budgetary shortfall. More information about the proposed cuts is available [here](https://www.ukri.org/publications/explainer-stfc-prioritisation-outcomes/explainer-stfc-prioritisation-outcomes-2026-to-2030/).
 
