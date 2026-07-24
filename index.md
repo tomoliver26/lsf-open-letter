@@ -11,6 +11,6 @@ The world-leading [Lasers for Science Facility](https://www.clf.stfc.ac.uk/Pages
 
 Please help advocate for the continued funding and operation of the LSF by adding your names to the following open letter.
 
-[Read the open letter](/letter.md){: .btn .btn--primary }
+[Read the open letter]({{ "/letter/" | relative_url }}){: .btn .btn--primary }
 
 [Add your signature](https://forms.cloud.microsoft/e/0HDcBx9Bz4){: .btn .btn--primary }
