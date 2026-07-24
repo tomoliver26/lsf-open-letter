@@ -14,5 +14,3 @@ header:
 The **Lasers for Science Facility**, incorporating Ultra, Octopus and Artemis, provides internationally leading capabilities for multidisciplinary laser science.
 
 This open letter brings together researchers and facility users who wish to demonstrate the scientific importance of the LSF and support its sustainable future.
-
-[View the signatories]({{ "/signatories/" | relative_url }}){: .btn .btn--primary }
