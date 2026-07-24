@@ -18,4 +18,4 @@ Please help advocate for the continued funding and operation of the LSF by addin
 
 [Read the open letter](/letter.md)
 
-[Add your signature]("https://forms.cloud.microsoft/e/0HDcBx9Bz4)
+Add your signature{: .btn .btn--primary }
