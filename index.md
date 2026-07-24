@@ -15,9 +15,3 @@ As you may already be aware, the UK’s Science and Technology Facilities Counci
 Of particular concern to us, the Lasers for Science Facility (LSF) is under threat of closure if it cannot switch to an alternative model for funding within 2 years.  The three constituent facilities of the LSF are **Octopus**, **Ultra**, and **Artemis**, co-located in the Research Complex at Harwell building on the STFC Rutherford Appleton Laboratory campus. The ongoing £17.2M HiLUX project is implementing upgrades to Ultra and Artemis to provide state-of-the-art new facilities that are unmatched globally, but it will also be terminated if the LSF closes.
 
 Many of us have benefited directly from access to the LSF’s facilities and the shared expertise of its outstanding staff scientists.  Others are included on this circulation list because you have published papers that contain data acquired in collaboration with LSF users. We hope you will join us in advocating for the continued funding and operation of the LSF by adding your names to an open letter. 
-
-
-
-The **Lasers for Science Facility**, incorporating Ultra, Octopus and Artemis, provides internationally leading capabilities for multidisciplinary laser science.
-
-This open letter brings together researchers and facility users who wish to demonstrate the scientific importance of the LSF and support its sustainable future.
