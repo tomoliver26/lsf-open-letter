@@ -7,12 +7,14 @@ classes: wide
 
 [Add your signature](https://forms.cloud.microsoft/e/0HDcBx9Bz4){: .btn .btn--primary }
 
-Professor Sir Ian Chapman Chief Executive, UKRI <br>
-Professor Michele Dougherty Executive Chair, STFC <br>
+Professor Sir Ian Chapman, Chief Executive, UKRI <br>
+Professor Michele Dougherty, Executive Chair, STFC <br>
 Professor Charlotte Dean, Executive Chair, EPSRC <br>
 Professor Anne Ferguson-Smith, Executive Chair, BBSRC <br>
 Professor Louise Heathwaite, Executive Chair, NERC <br>
-Professor Patrick Chinnery, Executive Chair, MRC 
+Professor Patrick Chinnery, Executive Chair, MRC
+
+Dear Professors Chapman, Dougherty, Dean, Ferguson-Smith, Heathwaite and Chinnery,
 
 As users of the Lasers for Science Facility (LSF), which is part of the Central Laser Facility (CLF), we write to express our deep concern about recent decisions made by STFC that will adversely impact world-leading research of national and international importance. This research aligns strongly with UKRI priority areas, and is currently sponsored by STFC, EPSRC, BBSRC, NERC and MRC, as well as by industrial, charitable and other non-Research Council funders.
 
