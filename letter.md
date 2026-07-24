@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Open letter"
 permalink: /letter/
 classes: wide
 ---
