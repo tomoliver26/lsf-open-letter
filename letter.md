@@ -38,7 +38,6 @@ Yours Sincerely
 Andrew Orr-Ewing FRS, Leverhulme Chair of Physical Chemistry, University of Bristol, UK <br>
 Tom Oliver, Professor of Chemistry, University of Bristol, UK <br>
 
-(Last Updated 24th July 2026) <br>
 
 **Appendix: LSF User Survey outcomes**
 
