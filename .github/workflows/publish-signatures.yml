@@ -110,7 +110,8 @@ jobs:
               raw_public_text = " ".join(
                   str(entry.get(field, ""))
                   for field in (
-                      "name",
+                      "first_name",
+                      "last_name",
                       "position",
                       "institution",
                       "country",
@@ -145,7 +146,14 @@ jobs:
                   )
                   continue
 
-              name = clean(entry.get("name"), 150)
+              first_name = clean(entry.get("first_name"), 100)
+              last_name = clean(entry.get("last_name"), 100)
+
+              name = " ".join(
+                part for part in (first_name, last_name) if part
+              )
+
+              
               position = clean(entry.get("position"), 200)
               institution = clean(entry.get("institution"), 250)
               country = clean(entry.get("country"), 100)
