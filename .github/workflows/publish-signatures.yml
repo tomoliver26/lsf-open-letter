@@ -44,25 +44,58 @@ jobs:
           path = pathlib.Path("signatories.md")
           marker = "<!-- AUTO-SIGNATORIES -->"
 
-          event = json.loads(
-              pathlib.Path(os.environ["GITHUB_EVENT_PATH"]).read_text(
-                  encoding="utf-8"
-              )
-          )
+          event_path = pathlib.Path(os.environ["GITHUB_EVENT_PATH"])
+          event = json.loads(event_path.read_text(encoding="utf-8"))
 
-          entries = (
-              event
-              .get("client_payload", {})
-              .get("signatories", [])
-          )
+          payload = event.get("client_payload", {})
+
+          # Accept either:
+          #
+          # 1. A single signatory sent directly:
+          #    {
+          #      "first_name": "Biggles",
+          #      "last_name": "Wick",
+          #      ...
+          #    }
+          #
+          # 2. A batch:
+          #    {
+          #      "signatories": [
+          #        {...},
+          #        {...}
+          #      ]
+          #    }
+
+          if isinstance(payload, dict) and "signatories" in payload:
+              entries = payload.get("signatories", [])
+
+              if isinstance(entries, dict):
+                  entries = [entries]
+
+          elif isinstance(payload, dict) and any(
+              key in payload
+              for key in (
+                  "first_name",
+                  "last_name",
+                  "name",
+                  "position",
+                  "institution",
+                  "country",
+              )
+          ):
+              entries = [payload]
+
+          else:
+              entries = []
 
           if not isinstance(entries, list):
               raise SystemExit(
-                  "client_payload.signatories must be an array."
+                  "The supplied signatory payload is not a valid object or array."
               )
 
           def clean(value, maximum):
-              """Create safe, single-line text for public display."""
+              """Return safe, single-line text for public display."""
+
               value = "" if value is None else str(value)
               value = unicodedata.normalize("NFKC", value)
 
@@ -82,12 +115,12 @@ jobs:
               value = re.sub(r"\s+", " ", value).strip()
               value = value[:maximum]
 
-              # Stop submitted HTML from being interpreted.
+              # Prevent submitted HTML from being rendered.
               value = html.escape(value, quote=False)
 
-              # Escape common Markdown control characters.
+              # Escape common Markdown formatting characters.
               value = re.sub(
-                  r"([\\`*_{}\[\]#|>])",
+                  r"([\\`*_{}\[\]()#+!|>])",
                   r"\\\1",
                   value,
               )
@@ -105,6 +138,7 @@ jobs:
 
           for entry in entries:
               if not isinstance(entry, dict):
+                  print("Skipped a payload entry that was not an object.")
                   continue
 
               raw_public_text = " ".join(
@@ -112,13 +146,14 @@ jobs:
                   for field in (
                       "first_name",
                       "last_name",
+                      "name",
                       "position",
                       "institution",
                       "country",
                   )
               )
 
-              # Do not publish submitted web links.
+              # Do not publish submitted links.
               if re.search(
                   r"(https?://|www\.|mailto:)",
                   raw_public_text,
@@ -127,41 +162,25 @@ jobs:
                   print("Skipped an entry containing a web address.")
                   continue
 
-              response_id = re.sub(
-                  r"[^A-Za-z0-9_-]",
-                  "",
-                  str(entry.get("response_id", "")),
-              )[:100]
-
-              if not response_id:
-                  print("Skipped an entry with no response ID.")
-                  continue
-
-              identifier = f"<!-- MSFORM-ID:{response_id} -->"
-
-              # Prevent the same Forms response being added twice.
-              if identifier in text:
-                  print(
-                      f"Response {response_id} is already present."
-                  )
-                  continue
-
               first_name = clean(entry.get("first_name"), 100)
               last_name = clean(entry.get("last_name"), 100)
 
               name = " ".join(
-                part for part in (first_name, last_name) if part
+                  part
+                  for part in (first_name, last_name)
+                  if part
               )
 
-              
+              # Retain compatibility with an older single-name payload.
+              if not name:
+                  name = clean(entry.get("name"), 200)
+
               position = clean(entry.get("position"), 200)
               institution = clean(entry.get("institution"), 250)
               country = clean(entry.get("country"), 100)
 
               if not name:
-                  print(
-                      f"Skipped response {response_id}: no name."
-                  )
+                  print("Skipped an entry with no name.")
                   continue
 
               parts = [
@@ -172,22 +191,27 @@ jobs:
               ]
 
               line = ", ".join(
-                  part for part in parts if part
+                  part
+                  for part in parts
+                  if part
               )
 
-              # Prevent identical visible records being added twice.
-              if f"{line}<br>" in text:
-                  print(
-                      f"Skipped duplicate visible entry: {line}"
-                  )
+              visible_record = f"{line}<br>"
+
+              # Prevent an identical public entry from being added twice.
+              if visible_record in text:
+                  print(f"Skipped duplicate visible entry: {line}")
                   continue
 
-              new_records.append(
-                  f"{line}<br>\n{identifier}"
-              )
+              if visible_record in new_records:
+                  print(f"Skipped duplicate entry within this batch: {line}")
+                  continue
+
+              new_records.append(visible_record)
 
           if new_records:
               insertion = "\n".join(new_records) + "\n"
+
               text = text.replace(
                   marker,
                   insertion + marker,
@@ -199,9 +223,8 @@ jobs:
                   encoding="utf-8",
               )
 
-              print(
-                  f"Added {len(new_records)} signatories."
-              )
+              print(f"Added {len(new_records)} signatories.")
+
           else:
               print("No new signatories to add.")
           PY
