@@ -41,7 +41,7 @@ jobs:
           import re
           import unicodedata
 
-          path = pathlib.Path("signatories.md")
+          path = pathlib.Path("_includes/signatories-list.html")
           marker = "<!-- AUTO-SIGNATORIES -->"
 
           event_path = pathlib.Path(os.environ["GITHUB_EVENT_PATH"])
@@ -241,7 +241,7 @@ jobs:
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add signatories.md
+          git add _includes/signatories-list.html
           git commit -m "Publish Microsoft Forms signatures"
 
           git pull --rebase origin main
